@@ -1,0 +1,57 @@
+
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  text-align: center;
+}
+header {
+  padding: 2em;
+}
+.logo {
+  max-width: 120px;
+  margin-bottom: 1em;
+}
+h1 {
+  color: #ff0033;
+  font-size: 2.5em;
+}
+.btn {
+  display: inline-block;
+  margin: 1em;
+  padding: 0.75em 1.5em;
+  background: #661aff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #4400aa;
+}
+.commands {
+  background: #1a1a1a;
+  padding: 2em 1em;
+}
+.command {
+  margin-bottom: 1.5em;
+}
+#premium {
+  background: #111;
+  padding: 2em 1em;
+}
+table {
+  margin: 1em auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+th, td {
+  border: 1px solid #555;
+  padding: 0.75em;
+}
+footer {
+  font-size: 0.9em;
+  padding: 2em 1em;
+  background: #000;
+}
